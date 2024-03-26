@@ -1,0 +1,42 @@
+@keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364);
+    background-size: 400% 400%;
+    color: #fff;
+    animation: backgroundAnimation 15s ease infinite;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 15px;
+    line-height: 1.6;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
